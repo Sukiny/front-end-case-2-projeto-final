@@ -275,7 +275,7 @@ button:focus {
     background-image: url("../../../public/hero-bg.svg");
     background-position: top center;
     background-repeat: no-repeat;
-    Position: relative;
+    position: relative;
     padding: 0px 40px 40px;
 
   }

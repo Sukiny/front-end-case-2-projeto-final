@@ -1,6 +1,7 @@
 import { Container } from "react-bootstrap"
 import foto from '../../public/img01.png'
-import { Link } from "react-router-dom"
+
+import CookieConsent from "react-cookie-consent";
 
 function Main() {
     return (
@@ -31,6 +32,17 @@ function Main() {
                 </div>
             </div>
         </section>
+        <CookieConsent 
+        location="bottom"
+        buttonText="ok"
+        cookieName="CookieName"
+        style={{ background: "#000" }}
+        buttonStyle={{ color: "#4e503b", fontSize: "13px" }}
+      >
+        Nós utilizamos cookies para melhorar a sua experiência no site. 
+        Ao continuar navegando, você concorda com a nossa política de privacidade <small>
+            <a className="text-warning" href="#">Saiba Mais</a></small>.  
+      </CookieConsent>
     </Container>
     )
     

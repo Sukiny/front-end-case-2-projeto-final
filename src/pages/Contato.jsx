@@ -13,15 +13,7 @@ function Contato() {
         event.preventDefault()
            
 
-      toast('🦄 ok!', {
-            position: "bottom-center",
-            autoClose: 5000,
-            hideProgressBar: false,
-            closeOnClick: true,
-            pauseOnHover: true,
-            draggable: true,
-            progress: undefined,
-            theme: "dark",  });
+      toast.success('sua mensagem foi envia!');
        
         event.target.reset()
     }
