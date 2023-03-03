@@ -10,7 +10,7 @@ function Depoimentos() {
     return (
         <>
 
-            <Container className="my-0 p-3 sm "style={{height:"80%"}}  >
+            <Container className="mt-3 p-3 sm "style={{height:"80%"}}  >
                 <Row className=" d-flex justify-content-center">
                     <Col className="col-md-11">
                         <div className="text-center mb-4 pb-2">
