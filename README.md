@@ -1,6 +1,10 @@
 # |Front-end-case2
 Projeto final fullstack Resilia
 
+<div align="center">
+<img src="https://user-images.githubusercontent.com/112680379/222670199-18591458-971d-4aef-9388-1831f37ca190.png" width="700px"/>
+</div>
+
 # Como Instalar
 
 Através do https
@@ -15,7 +19,7 @@ Utilizamos o `npm install` para instalar todas as depedências utilizadas no pro
     npm install 
 ```
 
- ulizaremos o `npm run dev` para iniciar o servidor em modo de desenvolvimento, no endereço localhost na porta de sua escolha.
+ utilizaremos  o `npm run dev` para iniciar o servidor em modo de desenvolvimento, no endereço localhost na porta de sua escolha.
 
 ```
     npm run dev
@@ -60,7 +64,10 @@ Utilizamos o `npm install` para instalar todas as depedências utilizadas no pro
         </a>
     </li>
 </ul>
+
+
 ## Depedências de desenvolvimento
+
 <ul>
     <li>
         <a href="https://www.npmjs.com/package/@types/react">
@@ -120,8 +127,9 @@ Nesta página com o login administrativo, o usuário tem permissão um CRUD na r
 Todas as requisições estão sendo feitas através do fetch do Js. 
 o servidor utilizado pode ser encontrado no projeto abaixo:
 
-```
-  <a href="https://github.com/MatokoLB/back-end-case2-projeto-final/" target="_blank">s</a>
-```
+ <a href="https://github.com/MatokoLB/back-end-case2-projeto-final" target="_blank">
+           back-end-case2-projeto-final
+ </a>
+
 
 
