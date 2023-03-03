@@ -16,11 +16,11 @@ function Main() {
                             <p className="wow fadeInUp text-dark animate__flash" >
                             Organize suas ideias e aprenda de forma eficiente com o nosso aplicativo gratuito de notas!
                             </p>
-                            <Link
-                                href="javascript:void(0)"
+                            <a
+                                target="_blank" href="https://classnotesapp.netlify.app/"
                                 className="main-btn border-btn btn-hover wow fadeInUp"
                                 data-wow-delay=".6s"
-                            >Acessar</Link>
+                            >Acessar</a>
                         </div>
                     </div>
                     <div className="col-lg-6 ">

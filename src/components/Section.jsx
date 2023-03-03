@@ -39,7 +39,7 @@ const Section = () => {
                         <div className="row align-items-center position-relative">
                             <CarouselFade />
                             <div className="col-lg-6">
-                                <div className="hero-content" >
+                                <div className="hero-content " >
                                     <h1 className="mb-5" >
                                         Sobre o App
                                     </h1>

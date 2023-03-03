@@ -5,13 +5,13 @@
 
 
 /* APP */
-.App { 
-  background-image: url("../../../public/hero-bg.svg") ;
+.App {
+  background-image: url("../../../public/hero-bg.svg");
   background-position: top center;
-  background-repeat: no-repeat; 
-  Position:relative;
-  padding: 100px 40px 40px ;
-  background-color: #FAE7C2 ;
+  background-repeat: no-repeat;
+  Position: relative;
+  padding: 100px 40px 40px;
+  background-color: #FAE7C2;
 }
 
 p {
@@ -91,8 +91,9 @@ p {
   background-position: top center;
   background-repeat: no-repeat;
 }
-.hero-section .sectionAbout{
-      background-color: #ebf0fc;
+
+.hero-section .sectionAbout {
+  background-color: #ebf0fc;
 }
 
 
@@ -101,7 +102,7 @@ p {
 }
 
 .hero-section .hero-content h1 {
-  font-size: 60px;
+  font-size: 3.2rem;
   margin-bottom: 35px;
   color: #000;
 }
@@ -130,7 +131,8 @@ p {
 
 /* img main */
 
-@media only screen and (min-width: 768px) and (max-width: 991px), (max-width: 767px) {
+@media only screen and (min-width: 768px) and (max-width: 991px),
+(max-width: 767px) {
   .hero-section .hero-img img {
     width: 100%;
   }
@@ -138,7 +140,8 @@ p {
 
 /* grid funcionalidades  */
 
-.services:hover, .services.active {
+.services:hover,
+.services.active {
   background: #1eb2a6;
   -webkit-box-shadow: 0px 5px 25px -2px rgba(0, 0, 0, 0.18);
   -moz-box-shadow: 0px 5px 25px -2px rgba(0, 0, 0, 0.18);
@@ -147,18 +150,22 @@ p {
 
 .ftco-section {
   width: 100%;
- padding: 10px;
- text-decoration: none;
+  padding: 10px;
+  text-decoration: none;
 }
 
-.services-2:hover, .services-2.active {
+.services-2:hover,
+.services-2.active {
   background: #1eb2a6;
   -webkit-box-shadow: 0px 5px 25px -2px rgba(0, 0, 0, 0.18);
   -moz-box-shadow: 0px 5px 25px -2px rgba(0, 0, 0, 0.18);
   box-shadow: 0px 5px 25px -2px rgba(0, 0, 0, 0.18);
 }
 
-a:hover, a:focus, button:hover, button:focus {
+a:hover,
+a:focus,
+button:hover,
+button:focus {
   text-decoration: none;
   color: #1eb2a6;
   outline: none !important;
@@ -179,33 +186,32 @@ a:hover, a:focus, button:hover, button:focus {
 
 
 .services-2 .text span {
-    font-size: 13px;
-    font-weight: 500;
-    background: #f8f8f8;
-    padding: 5px;
-    border-radius: 4px;
+  font-size: 13px;
+  font-weight: 500;
+  background: #f8f8f8;
+  padding: 5px;
+  border-radius: 4px;
 }
 
 
 
 /* login */
 
-#login-card{
-  width:60%;
+#login-card {
+  width: 60%;
   border-radius: 25px;
-  margin:70px auto;
-
+  margin: 70px auto;
 }
 
-.form1{
-  border-radius:30px;
+.form1 {
+  border-radius: 30px;
   background-color: #ebf0fc;
   border-color: #ebf0fc;
   color: #9da3b0;
 }
 
-#button{
-  border-radius:30px;
+#button {
+  border-radius: 30px;
 
 }
 
@@ -228,9 +234,10 @@ a:hover, a:focus, button:hover, button:focus {
 
 }
 
-.icon-boxes .icon-box:hover{
-  background:  #1eb2a6;;
-  color:#fff;
+.icon-boxes .icon-box:hover {
+  background: #1eb2a6;
+  ;
+  color: #fff;
 }
 
 .icon-boxes .icon {
@@ -244,9 +251,9 @@ a:hover, a:focus, button:hover, button:focus {
   margin-bottom: 15px;
   font-size: 18px;
 }
-  
+
 .icon-boxes .title a {
-  color: #000; 
+  color: #000;
   text-decoration: none;
 }
 
@@ -255,4 +262,59 @@ a:hover, a:focus, button:hover, button:focus {
   line-height: 28px;
   margin-bottom: 0;
   color: #000;
+}
+
+
+/* depoimentos */
+
+
+
+@media (max-width: 768px) {
+
+  .App {
+    background-image: url("../../../public/hero-bg.svg");
+    background-position: top center;
+    background-repeat: no-repeat;
+    Position: relative;
+    padding: 0px 40px 40px;
+
+  }
+ 
+}
+
+
+@media (max-width: 568px) {
+  .App {
+
+    padding: 0px 0px 0px;
+
+  }
+
+  .hero-section .hero-content h1 {
+    font-size: 2.2rem;
+
+
+
+  }
+
+
+  .carouselImg {
+    width: 83%;
+  }
+
+  .col-9E {
+    width: none !important;
+  }
+
+
+  .sm {
+    margin: 0;
+    padding: 0;
+  }
+
+  #login-card {
+    width: 100%;
+  }
+  
+
 }

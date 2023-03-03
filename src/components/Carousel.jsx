@@ -10,11 +10,11 @@ function CarouselFade() {
         <div id="device-carousel" class="device-holder device-holder-iphonex text-center col-md-10 col-12 order-md-1">
 
           <Carousel class="carousel-inner">
-            <Carousel.Item class="carousel-item   ">
-              <img class="" src={foto2} alt="" />
+            <Carousel.Item class="carousel-item hero-content hero-img   ">
+              <img class="carouselImg" src={foto2} alt="" />
             </Carousel.Item>
             <Carousel.Item class="carousel-item ">
-              <img class="" src={foto3} alt="" />
+              <img class="carouselImg" src={foto3} alt="" />
             </Carousel.Item>
           </Carousel>
 
