@@ -56,13 +56,27 @@ function Depoimentos() {
                                                 </Row>
                                             </Col>
                                         </Row>
+                                    </Carousel.Item><Carousel.Item>
+                                        <Row className=" d-flex justify-content-center ">
+                                            <Col className="col-xl-8 d-flex justify-content-end">
+                                                <Row>
+                                                    <div className="col-lg-4 d-flex justify-content-end">
+                                                        <img src={foto02}
+                                                            className="rounded-circle shadow-1 mb-4 mb-lg-0" alt="woman avatar" style={{ width: "150px", height: "150px", backgroundColor: "#fff" }}></img>
+                                                    </div>
+                                                    <Carousel.Caption class=" col-md-9 col-lg-7 col-xl-8 text-center text-lg-start mx-auto mx-lg-0 col-9E">
+                                                        <h4>Beatriz Fidelis - Nutricionista</h4>
+                                                        <i>
+                                                        Como nutricionista, eu sempre procuro maneiras de me manter organizada e produtiva, e o Class Notes tem sido uma ferramenta incrível para isso. Com a funcionalidade do quadro de notas, eu posso organizar minhas ideias de forma visual e intuitiva, destacando informações importantes com cores e realces. Além disso, a funcionalidade de lembretes e alarmes me ajudou a nunca perder um compromisso ou tarefa importante novamente. Adicionar imagens e arquivos às minhas notas foi simples e eficiente, e a sincronização automática garantiu que eu sempre tivesse acesso às minhas notas atualizadas em todos os meus dispositivos. O Class Notes é um aplicativo essencial para qualquer profissional que precise manter-se organizado e produtivo, e eu recomendo sem hesitação!
+                                                        </i>
+                                                    </Carousel.Caption>
+                                                </Row>
+                                            </Col>
+                                        </Row>
                                     </Carousel.Item>
-
-
-
+                                    
                                 </Carousel>
                             </div>
-
                     </Col>
                 </Row>
             </Container>

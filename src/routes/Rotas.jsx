@@ -7,6 +7,7 @@ import Funcionalidades from '../pages/Funcionalidades'
 import Login from '../pages/Login'
 import AdminFuncionalidades from '../pages/Admin/AdminFuncionalidades'
 import AdminSobre from '../pages/Admin/AdminSobre'
+import NotFound from '../pages/404'
 
 function Rotas() {
     return (
@@ -18,7 +19,8 @@ function Rotas() {
             <Route path="/login" element={<Login />} />
             <Route path="/admin/funcionalidades" element={<AdminFuncionalidades />} />
             <Route path="/admin/sobre" element={<AdminSobre />} />
-            <Route path="/home" element={<Home/>} />
+            <Route path="*" element={<NotFound/>} />
+
         </Routes>
     )
 }
