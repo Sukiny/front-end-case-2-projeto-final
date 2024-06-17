@@ -148,5 +148,10 @@ o servidor utilizado pode ser encontrado no projeto abaixo:
            back-end-case2-projeto-final
  </a>
 
+## :people_holding_hands: Equipe
+- <a href="https://github.com/Ddsans">@Ddsans</a>
+- <a href="https://github.com/MatokoLB">@MatokoLB</a>
+- <a href="https://github.com/Julia-Pauline">@Julia-Pauline</a>
+- <a href="https://github.com/pires01">@pires01</a>
 
 
